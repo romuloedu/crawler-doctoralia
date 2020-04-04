@@ -5,7 +5,8 @@ function robot() {
     const content = {
     }
 
-    content.city = askAndReturnCityQuery();
+    
+    content.searchTerm = askAndReturnCityQuery();
     state.save(content);
 
     function askAndReturnCityQuery() {
