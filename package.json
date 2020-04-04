@@ -21,5 +21,7 @@
   "devDependencies": {
     "nodemon": "^2.0.2"
   },
-  "dependencies": {}
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
 }
